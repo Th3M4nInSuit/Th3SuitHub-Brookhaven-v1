@@ -1,0 +1,113 @@
+--Th3Suit Hub
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Th3Suit Hub☠︎ - Brookhaven Rp🏡", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "🇧🇷 - Warning / Atenção.",
+	Content = "Olá usuário. Agradeço por usar meu Hub, tenho mas algumas informações. Este Hub não foi verificado pela script blox, mas relaxa. E esse script Apenas funciona nos executores; Trigon mobile e Pc, Fluxus pc e mobile, krnl.",
+	Image = "rbxassetid://4483345998",
+	Time = 30
+})
+
+local Tab = Window:MakeTab({
+	Name = "ⓘ Information ⓘ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "XVIHub Information."
+})
+
+Tab:AddParagraph("🇧🇷 Informações Hub 🇧🇷","Hub desenvolvido por Th3M4nInSuit#0000 <- Discord Usuário.")
+
+Tab:AddLabel("O Hub é uma base de scripts dentro deste Hub, então aproveite!")
+
+local Tab = Window:MakeTab({
+	Name = "XVIHub - Brookhaven RP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Brookhaven - OP Scripts"
+})
+
+Tab:AddButton({
+	Name = "♦ - Redzhub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))() 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "❄ - Icehub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+	  print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "♾️ - InfiniteYield",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "N/A - NamelessAdmin",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "👾 - Vhub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))() 
+	  print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🌹 -  BrookhavenHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hassantheking123321/Everybody/main/My%20hub"))();
+	  print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GrimEx Coming soon...",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Coming Soon.!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "ⓘ Créditos:",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Créditos;⬇️"
+})
+
+Tab:AddParagraph("Créditos ao:","OrionLib,GitHub,Icehub,Redzhub.")
+
+Tab:AddLabel("InfiniteYield, BrookhaveHub, GrimEx,Nameless")
+
+Tab:AddLabel("OBRIGADO POR USAR O SCRIPT!🌹")
